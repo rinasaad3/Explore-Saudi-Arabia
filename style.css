@@ -1,0 +1,145 @@
+/* Page setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #006c35;
+    padding: 18px;
+}
+
+/* Navigation links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+    color: gold;
+}
+
+/* Main heading */
+h1 {
+    color: #006c35;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+/* Sub headings */
+h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Subtitle text */
+.subtitle {
+    margin-bottom: 30px;
+    color: #666;
+    font-size: 18px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Grid layout for cards */
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Card design */
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Images inside cards */
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Details section */
+details {
+    margin-top: 10px;
+}
+
+/* Summary (View More button) */
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #006c35;
+    margin-top: 8px;
+}
+
+/* Main image (homepage) */
+.main-image {
+    width: 350px;
+    display: block;
+    margin: 25px auto 35px auto;
+    border-radius: 12px;
+}
+
+/* Lists styling */
+ul, ol {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* Table styling */
+table {
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: white;
+}
+
+/* Table borders */
+table, th, td {
+    border: 1px solid gray;
+}
+
+/* Table cells */
+th, td {
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Table header */
+th {
+    background-color: #006c35;
+    color: white;
+}
